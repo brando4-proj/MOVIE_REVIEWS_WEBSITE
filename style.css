@@ -473,8 +473,8 @@ a {
 
 .rating-system-section{
     padding: 20px;
-    width: 1000px;
-    background: pink;
+    width: 100%;
+    background: red;
 }
 
 .section-heading{
@@ -504,7 +504,9 @@ a {
 }
 
 .bar{
-    width: auto;
+    height: 25px;
+    border-radius: 20px;
+    padding: 20px;
     background: green;
 }
 
@@ -551,6 +553,7 @@ a {
     }
 
 }
+
 
 
 
