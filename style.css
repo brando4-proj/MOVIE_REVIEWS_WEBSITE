@@ -409,14 +409,14 @@ a {
     margin-top: 50px;
     justify-content: center;
     align-content: center;
-    width: 800px;
+    width: 100%;
     border: 10px solid #fff;
 }
 
 .chart-bars {
     display: grid;
     gap: 15px;
-    width: 600px;
+    width: 100%;
 }
 
 .rating-bar-item {
@@ -492,6 +492,7 @@ a {
     }
 
 }
+
 
 
 
