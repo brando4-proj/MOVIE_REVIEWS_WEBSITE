@@ -20,6 +20,8 @@ body {
     background-color: var(--color-purple);
     color: var(--color-text-light);
     line-height: 1.6;
+    padding: 0; 
+    margin: 0;
 }
 
 a {
@@ -43,7 +45,6 @@ a {
 
 .main-header {
     background-color: navy;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -466,4 +467,5 @@ a {
         max-width: 100%;
         margin-top: 50px;
     }
+
 }
