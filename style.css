@@ -417,6 +417,7 @@ a {
     display: grid;
     gap: 15px;
     width: 100%;
+    background: blue;
 }
 
 .rating-bar-item {
@@ -492,6 +493,7 @@ a {
     }
 
 }
+
 
 
 
