@@ -406,12 +406,15 @@ a {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 50px
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 .chart-bars {
     display: grid;
     gap: 15px;
+    width: 600px;
 }
 
 .rating-bar-item {
@@ -439,7 +442,7 @@ a {
 }
 
 .bar:nth-Child(1){
-    width: 500px;
+    width: 800px;
 }
 
 .bar:nth-Child(2){
@@ -487,6 +490,7 @@ a {
     }
 
 }
+
 
 
 
