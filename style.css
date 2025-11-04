@@ -386,7 +386,6 @@ a {
     position: relative;
     min-height: 500px;
     background-repeat: cover;
-    width: 800px;
 }
 
 .section-heading {
@@ -410,6 +409,8 @@ a {
     margin-top: 50px;
     justify-content: center;
     align-content: center;
+    width: 800px;
+    border: 10px solid #fff;
 }
 
 .chart-bars {
@@ -491,6 +492,7 @@ a {
     }
 
 }
+
 
 
 
