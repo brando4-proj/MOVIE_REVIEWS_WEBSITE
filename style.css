@@ -402,26 +402,25 @@ a {
 }
 
 .rating-chart-container {
-    flex: 1;
-    max-width: 600px;
     background: #f9f9f9;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
+    margin-top: 50px
 }
 
 .chart-bars {
     display: flex;
-    flex-direction: column;
     gap: 15px;
 }
 
 .rating-bar-item {
-    display: flex;
+    display: grid;
+    grid-auto-column: 200px;
     align-contents: center;
     justify-content: center;
     gap: 15px;
+    background: red;
 }
 
 .rating-label {
@@ -436,6 +435,10 @@ a {
     background-color: var(--primary-color, #ffee00);
     border-radius: 10px;
     transition: width 1s ease-out;
+}
+
+.bar:nth-Child(1){
+    width: 500px;
 }
 
 .bar:nth-Child(2){
@@ -483,5 +486,6 @@ a {
     }
 
 }
+
 
 
